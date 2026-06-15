@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0",
+  "release_date": "2026-06-15",
+  "download_url": "https://github.com/Dev-JeffersonMF/bighouse-releases/releases/latest/download/BigHouseInstaller.exe",
+  "changelog": [
+    "Versão inicial do sistema",
+    "Sistema de tarefas diárias com fotos e WhatsApp",
+    "Painel admin com Tarefas Diárias e Tarefas Enviadas",
+    "Interface do funcionário com câmera integrada",
+    "Fotos armazenadas por 7 dias e excluídas automaticamente"
+  ],
+  "min_version": "1.0.0",
+  "mandatory": false,
+  "notas": "Instale normalmente por cima da versão anterior."
+}
