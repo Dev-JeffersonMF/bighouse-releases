@@ -1,26 +1,11 @@
 {
-  "version": "1.5.0",
+  "version": "1.7.1",
   "release_date": "2026-06-18",
   "download_url": "https://github.com/Dev-JeffersonMF/bighouse-releases/releases/latest/download/BigHouseInstaller.exe",
   "changelog": [
-    "Sistema de licenca: trial de 7 dias gratis na primeira instalacao",
-    "Verificacao de assinatura via Firebase a cada 2h (funciona offline por 3 dias)",
-    "Tela de configuracao inicial com ativacao automatica do trial",
-    "Tela de assinatura vencida com opcao de renovacao",
-    "Sincronizacao do catalogo com Firebase Realtime Database",
-    "Backups e relatorios de caixa salvos automaticamente na nuvem",
-    "Vitrine de mesas 3D com nome dos clientes e animacao",
-    "Divisao de conta por cliente na comanda",
-    "Cancelamento de item com motivo obrigatorio e impressao automatica",
-    "Migracao de mesa: move todos os pedidos sem perder dados",
-    "Recibo impresso automaticamente ao fechar comanda",
-    "Cardapio completo com 78 pizzas, porcoes, hamburguer, drinks e balcao",
-    "Impressoras termicas por setor: COZINHA, PIZZARIA, BAR, BALCAO",
-    "Controle de estoque com baixa automatica por receita",
-    "Delivery: pedidos WhatsApp, iFood e telefone em abas separadas",
-    "Gerenciamento de equipe com permissoes por funcao"
+    "Atualização para a versão 1.7.1. Veja as notas da release."
   ],
   "min_version": "1.0.0",
   "mandatory": false,
-  "notas": "Instale normalmente por cima da versao anterior. O banco de dados e a licenca sao preservados."
+  "notas": "Instale por cima da versão anterior. O banco de dados é preservado."
 }
