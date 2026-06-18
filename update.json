@@ -1,23 +1,26 @@
 {
-  "version": "1.1.0",
-  "release_date": "2026-06-15",
+  "version": "1.5.0",
+  "release_date": "2026-06-18",
   "download_url": "https://github.com/Dev-JeffersonMF/bighouse-releases/releases/latest/download/BigHouseInstaller.exe",
   "changelog": [
-    "Cardápio completo da pizzaria (78 pizzas, porções, hamburguer, drinks, balcão)",
-    "Vitrine 3D de mesas com nome dos clientes e animação de hover",
-    "Modal de cancelamento de item com motivo obrigatório + impressão automática no setor",
-    "Migração de mesa: move todos os pedidos para outra mesa e libera a origem",
-    "Recibo de pagamento impresso automaticamente ao fechar comanda",
-    "Painel admin com gerenciamento completo de mesas (lançar, cancelar, migrar, fechar)",
-    "Impressoras térmicas: configuração por destino (COZINHA, PIZZARIA, BAR, BALCÃO)",
-    "Tickets de preparo: BALCÃO ignorado (garçom busca sem ticket)",
-    "Controle de estoque: itens, notas de compra, receitas e balanço do dia",
-    "Baixa automática de estoque ao lançar pedido (via receita do produto)",
-    "Lote fiscal para delivery com substituição de categoria (menor alíquota)",
-    "Delivery: pedidos WhatsApp, iFood e telefone em abas separadas com alerta visual",
-    "Segurança: SECRET_KEY gerada com entropy segura via secrets.token_urlsafe"
+    "Sistema de licenca: trial de 7 dias gratis na primeira instalacao",
+    "Verificacao de assinatura via Firebase a cada 2h (funciona offline por 3 dias)",
+    "Tela de configuracao inicial com ativacao automatica do trial",
+    "Tela de assinatura vencida com opcao de renovacao",
+    "Sincronizacao do catalogo com Firebase Realtime Database",
+    "Backups e relatorios de caixa salvos automaticamente na nuvem",
+    "Vitrine de mesas 3D com nome dos clientes e animacao",
+    "Divisao de conta por cliente na comanda",
+    "Cancelamento de item com motivo obrigatorio e impressao automatica",
+    "Migracao de mesa: move todos os pedidos sem perder dados",
+    "Recibo impresso automaticamente ao fechar comanda",
+    "Cardapio completo com 78 pizzas, porcoes, hamburguer, drinks e balcao",
+    "Impressoras termicas por setor: COZINHA, PIZZARIA, BAR, BALCAO",
+    "Controle de estoque com baixa automatica por receita",
+    "Delivery: pedidos WhatsApp, iFood e telefone em abas separadas",
+    "Gerenciamento de equipe com permissoes por funcao"
   ],
   "min_version": "1.0.0",
   "mandatory": false,
-  "notas": "Instale normalmente por cima da versão anterior. O banco de dados é preservado."
+  "notas": "Instale normalmente por cima da versao anterior. O banco de dados e a licenca sao preservados."
 }
