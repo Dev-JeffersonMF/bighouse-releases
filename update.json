@@ -1,11 +1,16 @@
 {
   "version": "1.7.15",
   "release_date": "2026-06-19",
-  "download_url": "https://github.com/Dev-JeffersonMF/bighouse-releases/releases/latest/download/BigHouseInstaller.exe",
+  "download_url": "https://github.com/Dev-JeffersonMF/bighouse-releases/releases/download/v1.7.15/BigHouseInstaller.exe",
   "changelog": [
-    "Atualização para a versão 1.7.15. Veja as notas da release."
+    "Correção: mesa fica livre automaticamente ao cancelar o último item da comanda (sem precisar clicar em Finalizar Comanda)",
+    "Correção: recibo de comanda agora inclui itens cancelados (com ✕) — não dá mais erro 'Comanda sem itens'",
+    "Correção: destino de bebidas e drinks usa fallback por categoria (BALCAO/BAR) em vez de ir para COZINHA",
+    "Correção: cancelamento de pizza imprime na PIZZARIA (não COZINHA)",
+    "Correção: frontend redireciona para grade de mesas automaticamente após mesa ficar livre",
+    "Melhoria: novo endpoint /recibo/mesa/{numero}/enviar imprime recibo completo no BALCÃO com todos itens, cancelados visíveis"
   ],
   "min_version": "1.0.0",
   "mandatory": false,
-  "notas": "Instale por cima da versão anterior. O banco de dados é preservado."
+  "notas": "Instale por cima da versao anterior. O banco de dados em APPDATA e preservado."
 }
