@@ -8,6 +8,10 @@
     "Build alterado para --onefile (único .exe de ~46MB)",
     "Item riscado: cancelados visíveis na comanda com status e motivo",
     "Impressão de cancelamento automática via ESC/POS com fallback PDF",
+    "Fix: bebidas/drinks não são mais enviados para COZINHA como pedido ou cancelamento",
+    "Fix: cancelamento de pizza agora imprime na PIZZARIA (e não COZINHA)",
+    "Fix: fallback de destino por categoria (bebidas→BALCAO, drinks→BAR)",
+    "Fix: finalização de mesa agora imprime recibo completo no BALCÃO com todos os itens (inclusive cancelados), total só dos não-cancelados",
     "Fix: botão '-' quebrado por JSON.stringify dentro de onclick",
     "Fix: f-string com slicing causava SyntaxError no Python 3.14",
     "Fix: BOM UTF-8 removido de _version.py"
