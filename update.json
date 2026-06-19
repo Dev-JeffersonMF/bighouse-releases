@@ -1,22 +1,11 @@
 {
-  "version": "1.7.14",
-  "release_date": "2026-06-18",
+  "version": "1.7.15",
+  "release_date": "2026-06-19",
   "download_url": "https://github.com/Dev-JeffersonMF/bighouse-releases/releases/latest/download/BigHouseInstaller.exe",
   "changelog": [
-    "Confirmação visual em todos os frontends: funcionário, admin, delivery e caixa",
-    "Mesas operacionais no Caixa: módulo MesasCaixa completo",
-    "Build alterado para --onefile (único .exe de ~46MB)",
-    "Item riscado: cancelados visíveis na comanda com status e motivo",
-    "Impressão de cancelamento automática via ESC/POS com fallback PDF",
-    "Fix: bebidas/drinks não são mais enviados para COZINHA como pedido ou cancelamento",
-    "Fix: cancelamento de pizza agora imprime na PIZZARIA (e não COZINHA)",
-    "Fix: fallback de destino por categoria (bebidas→BALCAO, drinks→BAR)",
-    "Fix: finalização de mesa agora imprime recibo completo no BALCÃO com todos os itens (inclusive cancelados), total só dos não-cancelados",
-    "Fix: botão '-' quebrado por JSON.stringify dentro de onclick",
-    "Fix: f-string com slicing causava SyntaxError no Python 3.14",
-    "Fix: BOM UTF-8 removido de _version.py"
+    "Atualização para a versão 1.7.15. Veja as notas da release."
   ],
   "min_version": "1.0.0",
   "mandatory": false,
-  "notas": "Instale por cima da versão anterior. O banco de dados em %APPDATA% é preservado."
+  "notas": "Instale por cima da versão anterior. O banco de dados é preservado."
 }
