@@ -1,9 +1,9 @@
 {
-  "version": "1.7.11",
+  "version": "1.7.12",
   "release_date": "2026-06-19",
   "download_url": "https://github.com/Dev-JeffersonMF/bighouse-releases/releases/latest/download/BigHouseInstaller.exe",
   "changelog": [
-    "Atualização para a versão 1.7.11. Veja as notas da release."
+    "Atualização para a versão 1.7.12. Veja as notas da release."
   ],
   "min_version": "1.0.0",
   "mandatory": false,
