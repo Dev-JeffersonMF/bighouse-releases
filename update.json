@@ -1,16 +1,16 @@
 {
-  "version": "1.7.13",
+  "version": "1.7.14",
   "release_date": "2026-06-18",
   "download_url": "https://github.com/Dev-JeffersonMF/bighouse-releases/releases/latest/download/BigHouseInstaller.exe",
   "changelog": [
-    "Confirmação visual em todos os frontends: funcionário, admin, delivery e caixa — overlay com nome, preço e quantidade antes dos extras",
-    "Mesas operacionais no Caixa: grade 3D, cardápio agrupado, pizza meio a meio, cancelamento com auto-print, pagamento, migração, busca de cliente",
-    "Item riscado: cancelados ficam visíveis na comanda, subtotal zerado, motivo em vermelho",
+    "Confirmação visual em todos os frontends: funcionário, admin, delivery e caixa",
+    "Mesas operacionais no Caixa: módulo MesasCaixa completo",
+    "Build alterado para --onefile (único .exe de ~46MB)",
+    "Item riscado: cancelados visíveis na comanda com status e motivo",
     "Impressão de cancelamento automática via ESC/POS com fallback PDF",
     "Fix: botão '-' quebrado por JSON.stringify dentro de onclick",
     "Fix: f-string com slicing causava SyntaxError no Python 3.14",
-    "Fix: BOM UTF-8 removido de _version.py para compilação PyInstaller",
-    "Duplicatas de modais removidas em funcionario/home.html"
+    "Fix: BOM UTF-8 removido de _version.py"
   ],
   "min_version": "1.0.0",
   "mandatory": false,
